@@ -10,3 +10,6 @@
 - Каскад стилів, специфічність, наслідування;
 
 - Псевдокласи стану (:hover, :focus, :visited, :active).
+
+Плагін для копіювання стилів
+https://marketplace.visualstudio.com/items?itemName=diz.ecsstractor-port

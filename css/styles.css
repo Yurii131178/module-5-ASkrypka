@@ -1,0 +1,116 @@
+/* універсальний селектор; */
+
+/* * {
+    box-sizing: border-box;
+} */
+
+
+/* селектор id; */
+
+/* #title {
+    color: blue;
+    font-size: 60px;
+} */
+
+/* селектор елемента; */
+/* h1 {
+    color: aqua;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+} */
+
+/* селектор класу; */
+
+/* .main-title {
+    color: brown;
+    font-size: 100px;
+}
+
+.item-link {
+    color: aqua;
+}
+
+.link {
+    color: blue;
+} */
+
+/* селектор нащадка; */
+
+/* section ul .item-link {
+    color: brown;
+} */
+
+
+/* селектор дитини; */
+
+/* .item>a {
+    color: blue;
+}
+
+body>.list {
+    background-color: aqua;
+} */
+
+/* 0100 */
+/* #list {
+    background-color: red;
+} */
+
+/* 0001 */
+/* ul {
+    background-color: blueviolet;
+} */
+
+/* 0010 */
+/* .list {
+    background-color: aqua;
+} */
+
+/* 0011 */
+/* section .list {
+    background-color: green;
+} */
+
+
+/* ul {
+    background-color: blue;
+    list-style: none;
+}
+
+ul {
+    background-color: red;
+    list-style: none;
+} */
+
+.item-link:hover,
+.item-link:focus,
+.item-link:active {
+    color: brown;
+    font-size: 30px;
+}
+
+button {
+    cursor: pointer;
+}
+
+.bnt-buy:hover,
+.bnt-buy:focus {
+    background-color: blue;
+    color: white;
+}
+
+h1:hover {
+    color: blue;
+}
+
+.hom-list {}
+
+.item-hom {}
+
+.item-link {}
