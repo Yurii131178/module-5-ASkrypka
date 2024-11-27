@@ -1,8 +1,8 @@
 # fs-115
 
-## План заняття (20.11.2024)
+## План заняття (27.11.2024)
 
-## Верстака макета по першому модулю HTML/CSS: https://www.figma.com/design/N6VOACmiulqG5iEpzpD0ZE/Simply-Chocolate-v1.0.0-(Copy)?node-id=5701-1481&node-type=canvas&t=mYCTPhkiBnr1kgyB-0
+## Верстака макета по другому модулю HTML/CSS: https://www.figma.com/design/N6VOACmiulqG5iEpzpD0ZE/Simply-Chocolate-v1.0.0-(Copy)?node-id=5701-1481&node-type=canvas&t=mYCTPhkiBnr1kgyB-0
 
 ### Корисні посилання Visual Studio Code:
 
