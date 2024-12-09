@@ -4,4 +4,11 @@
   margin: 0 auto;
   padding: 20px;
   border: 10px solid rgba(0, 0, 255, 0.4);
+  /* background-color: black; */
+  background-image: linear-gradient(rgba(30, 24, 35, 0.4), rgba(30, 24, 35, 0.4)), url(../images/bg.jpg);
+
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: 100px 50px;
+  /* background-clip: padding-box; */
 }

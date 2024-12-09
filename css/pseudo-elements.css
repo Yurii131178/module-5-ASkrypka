@@ -40,10 +40,38 @@ a {
   margin-bottom: 50px;
 }
 
+/* .title::before {
+  content: '';
+} */
+
+.title::after {
+  content: '';
+  width: 200px;
+  height: 4px;
+  background-color: blue;
+  border-radius: 15px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
 .task {
   display: flex;
   align-items: center;
   column-gap: 10px;
+}
+
+.task::before {
+  display: block;
+  content: '';
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: black;
+  border: 2px solid blue;
+  /* background-image: url(../images/pattern-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; */
 }
 
 .task:not(:last-child) {
