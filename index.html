@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Form</title>
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" />
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
+
+<body>
+  <form class="order-form">
+    <label class="order-form-field-label">Your first name <span class="required-color">*</span></label>
+    <input class="order-form-input" required placeholder="Andrii" pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐʼ]+" name="name"
+      type="text">
+    <label class="order-form-field-label" for="email">Your email <span class="required-color">*</span></label>
+    <input class="order-form-input" required placeholder="test@gmail.com" name="email" id="email" type="email">
+    <label class="order-form-field-label" for="tel">Your phone <span class="required-color">*</span></label>
+    <input class="order-form-input" required placeholder="xxx-xxx-xx-xx" pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+      name="tel" id="tel" type="tel">
+
+
+    <fieldset class="order-form-fieldset">
+      <legend class="order-form-legend">Pizza size</legend>
+      <ul>
+        <li>
+
+          <input type="radio" name="pizza-size" value="s" id="pizza-size-s">
+          <label for="pizza-size-s">S</label>
+        </li>
+        <li>
+
+          <input type="radio" name="pizza-size" value="m" id="pizza-size-m">
+          <label for="pizza-size-m">M</label>
+        </li>
+        <li>
+
+          <input type="radio" name="pizza-size" value="l" id="pizza-size-l">
+          <label for="pizza-size-l">L</label>
+        </li>
+      </ul>
+    </fieldset>
+    <fieldset class="order-form-fieldset">
+      <legend class="order-form-legend">Add Ingridients</legend>
+      <ul>
+        <li>
+          <label>
+            <input name="add-ingridients" value="chees" type="checkbox">Chees
+          </label>
+
+        </li>
+        <li>
+          <label>
+            <input name="add-ingridients" value="paperoni" type="checkbox">Paperoni
+          </label>
+
+        </li>
+      </ul>
+    </fieldset>
+
+    <textarea class="order-form-comment" name="user-coment" placeholder="Your comment"></textarea>
+    <label>
+      Your city
+      <select name="user-city">
+        <optgroup label="Kyiv-region">
+          <option value="Kyiv-Bucha">Kyiv</option>
+
+        </optgroup>
+        <optgroup label="Cherkas-region">
+
+          <option value="Uman">Uman</option>
+        </optgroup>
+      </select>
+    </label>
+    <input type="reset">
+    <input type="date" name="" id="">
+    <div>
+      <button class="order-form-btn order-form-btn-submit" type="submit">Submit</button>
+      <button class="order-form-btn order-form-btn-reset" type="reset">Reset</button>
+    </div>
+  </form>
+</body>
+
+</html>
